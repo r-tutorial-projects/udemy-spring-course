@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- dependencies -->
+    <bean id="myFortune" class="me.rubeen.java.udemy.springdemoone.HappyFortuneService"/>
+
+    <!-- Define your beans here -->
+    <bean id="myCoach" class="me.rubeen.java.udemy.springdemoone.TrackCoach"
+          init-method="init" destroy-method="destroy">
+        <constructor-arg ref="myFortune"/>
+    </bean>
+</beans>

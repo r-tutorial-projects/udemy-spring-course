@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="checkstyle-version" value="8.8" />
+        <entry key="copy-libs" value="false" />
+        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="scan-before-checkin" value="false" />
+        <entry key="scanscope" value="JavaOnly" />
+        <entry key="suppress-errors" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.18.4" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-adding-data-to-the-spring-model/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-binding-request-params/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/config/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-controller-level-mappings/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-create-home-controller-and-view/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-form-tags-checkboxes/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-form-tags-drop-down-lists/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-form-tags-radio-buttons/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-form-tags-text-fields/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-reading-html-form-data/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-create-custom-validation-rule/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-handle-strings-for-integer-fields/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-make-integer-fields-required/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-number-ranges/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-regular-expressions/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/solution-code-spring-mvc-validation-required-fields/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/02-spring-mvc-5/starter-files/spring-mvc-demo/config/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-add-customer/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-delete-customer/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-list-customers/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-refactor-add-get-post-mappings/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-refactor-add-service-layer/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-setup-and-test/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/solution-code-spring-mvc-CRUD-CRM-update-customer/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/04-spring-mvc-crud-5/web-customer-tracker-starter-files/WebContent/WEB-INF/web.xml" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-hibernate-source-code-v18/05-spring-aop-5/solution-code-spring-aop-mvc-logging/WebContent/WEB-INF/web.xml" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mvc/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="10" project-jdk-type="JavaSDK" />
+</project>

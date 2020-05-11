@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- properties -->
+    <context:property-placeholder location="sport.properties" />
+
+    <!-- dependencies -->
+    <bean id="myFortune" class="me.rubeen.java.udemy.springdemoone.HappyFortuneService" />
+
+    <bean id="randomFortune" class="me.rubeen.java.udemy.springdemoone.RandomFortuneService">
+        <property name="fortunes" value="${fortunes.fortunes}" />
+    </bean>
+
+    <!-- Define your beans here -->
+    <bean id="myCoach" class="me.rubeen.java.udemy.springdemoone.SwimCoach">
+           <constructor-arg ref="randomFortune" />
+    </bean>
+
+    <bean id="myCricketCoach" class="me.rubeen.java.udemy.springdemoone.CricketCoach">
+        <property name="fortuneService" ref="randomFortune" />
+        <property name="email" value="${team.email}" />
+        <property name="team" value="${team.teamName}" />
+    </bean>
+</beans>
